@@ -8,7 +8,8 @@ solution(input[0], input[1]);
 
 function solution(A, B) {
   const stringB = String(B);
-  // '385' -> ['3', '8', '5']
+  console.log(B)
+  // '385' -> ['3', '8', '5']로 볼수가 있음. => 문자열은 iterable하기 때문이다.
   const first = +stringB[2];
   const second = +stringB[1];
   const third = +stringB[0];
